@@ -24,20 +24,15 @@ This dataset was build by augmenting datasets of rainfall, climate and fertilize
 * **Rainfall** - rainfall in mm 
 
 ### [Experiment Results:]()
-* **Data Analysis**
-    * All columns contain outliers except for N.
  * **Performance Evaluation**
-    * Splitting the dataset by 80 % for training set and 20 % validation set.
+    * Splitting the dataset by 70 % for training set and 30 % validation set.
  * **Training and Validation**
-    * GausianNB gets a higher accuracy score than other classification models.
-    * GaussianNB ( 99 % accuracy score )
+    * Randome Forest gets a higher accuracy score than other classification models.
+    * Randome forest ( 99 % accuracy score )
  * **Performance Results**
-    * Training Score: 99.5%
-    * Validation Score: 99.3%
+    * Training Score: 99.9%
+    * Validation Score: 99.2%
 
  
-# Demo
-Live Demo: https://ai-crop-recommender.herokuapp.com/
 
-![](https://i.imgur.com/TnsSPQy.png)
 
