@@ -1,9 +1,16 @@
-import streamlit as st 
-import pandas as pd
+import streamlit as st
+import streamlit.components.v1 as components
 import numpy as np
-import os
-import pickle
-import warnings
+import pandas as pd
+import plotly.express as px
+from plotly.subplots import make_subplots
+import matplotlib.pyplot as plt 
+import plotly.graph_objects as go
+from PIL import Image
+from sklearn.inspection import permutation_importance
+from joblib import Parallel, delayed
+from sklearn.ensemble import RandomForestClassifier
+import joblib
 
 
 st.beta_set_page_config(page_title="Crop Recommender", page_icon="🌿", layout='centered', initial_sidebar_state="collapsed")
